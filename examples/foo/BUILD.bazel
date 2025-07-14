@@ -1,0 +1,5 @@
+"""e2e test"""
+
+load(":helper.bzl", "build_test")
+
+build_test(name = "example")
