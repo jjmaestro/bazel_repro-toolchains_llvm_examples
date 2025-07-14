@@ -17,4 +17,4 @@ llvm.toolchain_root(
 )
 use_repo(llvm, "llvm_toolchain_system")
 
-register_toolchains("@llvm_toolchain_system//:all")
+register_toolchains("@llvm_toolchain_system//:all", dev_dependency = True)
